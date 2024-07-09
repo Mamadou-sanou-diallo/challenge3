@@ -1,0 +1,85 @@
+
+.ul li {
+    margin: 20px;
+    gap: 20px; 
+}
+#contener{
+    display: flex;
+    gap:20px;
+}
+.c1{
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+.c2{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    margin:10px ;
+}
+.c3{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+.c4{
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+.c5{
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+.c6{
+    background-color: rgb(56, 94, 1);
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+
+.couleur{
+  display: flex;
+  justify-content: space-between;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin:0px;
+    height: 25px;
+}
+#divcolor{
+    display: flex;
+
+}
+body{
+    border:2px solid black;
+    width: 950px;
+    margin: 30px auto;
+}
+.img{
+    margin-bottom: -25px;
+}
+header::before{
+    position: absolute;
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    content: "SALE";
+    left: 200px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight:bold;
+    
+ 
+}
